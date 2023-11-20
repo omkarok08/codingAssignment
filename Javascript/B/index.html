@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Of Array in Decending Order</title>
+</head>
+
+<body>
+    <script>
+
+        let numbers = [3,6,8,9,11,14];
+
+        // Sorting in descending order
+        numbers.sort(function (a, b) {
+            return b - a;
+        });
+
+        document.write(numbers); // output : [14,11,9,8,6,3]
+
+    </script>
+</body>
+
+</html>
